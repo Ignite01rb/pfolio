@@ -47,7 +47,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }} 
-            className="fixed top-24 left-1/2 -translate-x-1/2 w-[95%] max-w-[230px] backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-10 flex flex-col items-center gap-8 md:hidden z-40 shadow-xl"
+            className="fixed top-24 left-1/2 -translate-x-1/2 w-[95%] max-w-[200px] backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-10 flex flex-col items-center gap-8 md:hidden z-40 shadow-xl"
           >
             {links.map((link, index) => (
               <a
