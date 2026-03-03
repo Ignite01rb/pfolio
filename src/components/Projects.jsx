@@ -68,7 +68,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative py-40 px-6 md:px-20 overflow-hidden"
+      className="relative pt-24 pb-28 md:pt-32 md:pb-36 px-5 md:px-20"
     >
       <SectionReveal>
       {/* Watermark */}
@@ -83,7 +83,7 @@ export default function Projects() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
+        viewport={{ once: true , amount:0.2 }}
         className="relative text-5xl md:text-7xl font-bold mb-32 tracking-tight"
       >
         <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">

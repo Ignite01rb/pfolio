@@ -8,14 +8,6 @@ const videos = [
     title: "Gaming Montage",
     src: "/videos/beggin.mov",
   },
-//   {
-//     title: "Team introduction",
-//     src: "/videos/core.mov",
-//   },
-//   {
-//     title: "Reel Edit",
-//     src: "/videos/withoutme.mov",
-//   },
   {
     title: "Promo Edit",
     src: "/videos/Timeline 1.mov",

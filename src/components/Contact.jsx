@@ -37,7 +37,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative py-32 px-6 md:px-20 flex flex-col items-center"
+      className="relative pt-24 pb-28 md:pt-32 md:pb-36
+px-5 sm:px-6 md:px-20
+flex flex-col items-center"
     >
       <SectionReveal>
 
@@ -66,7 +68,11 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="w-full max-w-4xl bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 md:p-12 shadow-xl"
+          className="w-full max-w-4xl
+bg-white/5 backdrop-blur-xl border border-white/10
+rounded-2xl
+p-6 sm:p-8 md:p-12
+shadow-xl"
         >
           <div className="grid md:grid-cols-2 gap-12">
 
