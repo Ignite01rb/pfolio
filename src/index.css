@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #050816, #0a0f2c);
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+  
+  
+  
+  
+
+@keyframes gradient {
+    0% { background-position: 0% }
+    100% { background-position: 300% }
+  }
+  
+  .animate-gradient {
+    background-size: 300%;
+    animation: gradient 8s linear infinite;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @keyframes gradient {
+    0% { background-position: 0% }
+    100% { background-position: 300% }
+  }
+  
+  .animate-gradient {
+    background-size: 300%;
+    animation: gradient 8s linear infinite;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #0a0a0f;
+  }
+
+/* ===== MOBILE FOUNDATION ===== */
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+/* prevent layout breaking */
+section {
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* responsive media */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* smoother taps */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* improve animation performance */
+.will-change-transform {
+  will-change: transform, opacity;
+}
