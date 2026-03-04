@@ -84,7 +84,7 @@ shadow-xl"
 
               <div className="flex items-center gap-4 text-gray-300">
                 <FaEnvelope className="text-blue-400" />
-                <span>raagee2005@example.com</span>
+                <span>raagee2005@gmail.com</span>
               </div>
 
               <div className="flex items-center gap-4 text-gray-300">

@@ -19,7 +19,7 @@ export default function SectionReveal({ children }) {
         duration: 0.9,
         ease: [0.22, 1, 0.36, 1], // cinematic easing
       }}
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.15 }}
     >
       {children}
     </motion.div>
