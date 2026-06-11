@@ -10,6 +10,7 @@ import p9 from "../imagepacks/p9.png";
 import p10 from "../imagepacks/p10.png";
 import p11 from "../imagepacks/p11.jpeg";
 import p12 from "../imagepacks/p12.png";
+import a from "../imagepacks/a.png";
 import SectionReveal from "./SectionReveal";
 
 const projects = [
@@ -53,6 +54,19 @@ const projects = [
     num: "03",
   },
   {
+    image: a,
+    title: "AlgoArena",
+    description:
+      "AlgoArena is a collaborative workspace linking competitive programming profiles (LeetCode, Codeforces, AtCoder) into a unified team ledger, featuring real-time solving trackers and interactive algorithm visualizers.",
+    tech: ["React", "Node.js", "Express", "Prisma", "PostgreSQL", "Three.js"],
+    link: "https://algo-arena-app.vercel.app/",
+    github: "https://github.com/Ignite01rb/AlgoArena",
+    accent: "from-red-700 to-pink-300",
+    accentColor: "#DE3163",
+    tag: "Full Stack",
+    num: "04",
+  },
+  {
     image: p7,
     title: "AuraPlay",
     description:
@@ -63,7 +77,7 @@ const projects = [
     accent: "from-yellow-400 to-red-500",
     accentColor: "#facc15",
     tag: "Frontend",
-    num: "04",
+    num: "05",
   },
   {
     image: p10,
@@ -76,7 +90,7 @@ const projects = [
     accent: "from-red-600 to-brown-700",
     accentColor: "#a3c2c2",
     tag: "React",
-    num: "05",
+    num: "06",
   },
   {
     image: p11,
@@ -89,7 +103,7 @@ const projects = [
     accent: "from-blue-400 to-purple-500",
     accentColor: "#d24dff",
     tag: "ML / AI",
-    num: "06",
+    num: "07",
   },
   {
     image: p12,
@@ -102,7 +116,7 @@ const projects = [
     accent: "from-green-200 to-white-500",
     accentColor: "#b8ed82",
     tag: "AI Agent",
-    num: "07",
+    num: "08",
   },
   {
     image: P8,
@@ -114,7 +128,7 @@ const projects = [
     accent: "from-green-400 to-red-500",
     accentColor: "#70db70",
     tag: "C++",
-    num: "08",
+    num: "09",
   },
 ];
 
