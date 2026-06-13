@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform, useMotionValue, useSpring, AnimatePres
 import { useRef, useState, useCallback } from "react";
 import h1 from "../imagepacks/h1.png";
 import p4 from "../imagepacks/p4.png";
-import p5 from "../imagepacks/p5main.png";
+import p5 from "../imagepacks/p5.png";
 import p6 from "../imagepacks/p6.png";
 import p7 from "../imagepacks/p7.png";
 import P8 from "../imagepacks/P8.png";
@@ -29,13 +29,13 @@ const projects = [
   },
   {
     image: p5,
-    title: "Hospital Management System",
+    title: "CareConnect",
     description:
       "Scalable hospital workflow management platform with department filtering, patient modules and responsive UI.",
     tech: ["React", "TailwindCSS", "Node.js", "MySQL"],
     link: "https://careconnect-1v6s.vercel.app/",
     github: "https://github.com/Ignite01rb/Care-Connect",
-    accent: "from-red-800 to-pink-500",
+    accent: "from-brown-800 to-mustard-500",
     accentColor: "#ffcc99",
     tag: "Full Stack",
     num: "02",
@@ -62,7 +62,7 @@ const projects = [
     link: "https://algo-arena-app.vercel.app/",
     github: "https://github.com/Ignite01rb/AlgoArena",
     accent: "from-red-700 to-pink-300",
-    accentColor: "#DE3163",
+    accentColor: "#F88379",
     tag: "Full Stack",
     num: "04",
   },
@@ -88,7 +88,7 @@ const projects = [
     link: "https://taskify-kappa-green.vercel.app/",
     github: "https://github.com/Ignite01rb/Todos",
     accent: "from-red-600 to-brown-700",
-    accentColor: "#a3c2c2",
+    accentColor: "#DE3163",
     tag: "React",
     num: "06",
   },

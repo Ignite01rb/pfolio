@@ -6,20 +6,20 @@ const videos = [
   {
     title: "Gaming Montage",
     category: "gaming",
-    duration: "2:47",
+    duration: "1:31",
     src: "/videos/beggin.mov",
     featured: true,
   },
   {
     title: "Promo Edit",
     category: "promo",
-    duration: "1:15",
+    duration: "0:18",
     src: "/videos/Timeline 1.mov",
   },
   {
     title: "Gaming Montage",
     category: "gaming",
-    duration: "3:22",
+    duration: "1:46",
     src: "/videos/stay.mp4",
   },
   {

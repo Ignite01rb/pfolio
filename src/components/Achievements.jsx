@@ -20,8 +20,8 @@ const achievements = [
     title: "BVEST Technical Fest",
     subtitle: "Member of organizing committee, assisting in coordination and event execution.",
     tag: "OC",
-    color: "text-blue-400",
-    accent: "from-blue-400 to-cyan-400",
+    color: "text-pink-400",
+    accent: "from-pink-400 to-cyan-400",
   },
   {
     title: "Odyssey 4.0 (College Magazine)",
